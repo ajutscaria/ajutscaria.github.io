@@ -1,0 +1,170 @@
+[
+{
+    "pk": 1, 
+    "model": "search.destinationcategory", 
+    "fields": {
+        "name": "National Park"
+    }
+},
+{
+    "pk": 2, 
+    "model": "search.destinationcategory", 
+    "fields": {
+        "name": "Airport"
+    }
+},
+{
+    "pk": 1, 
+    "model": "search.attractioncategory", 
+    "fields": {
+        "name": "Unassigned"
+    }
+},
+{
+    "pk": 2, 
+    "model": "search.attractioncategory", 
+    "fields": {
+        "name": "Hiking trail"
+    }
+},
+{
+    "pk": 3, 
+    "model": "search.attractioncategory", 
+    "fields": {
+        "name": "Historic"
+    }
+},
+{
+    "pk": 4, 
+    "model": "search.attractioncategory", 
+    "fields": {
+        "name": "Vista point"
+    }
+},
+{
+    "pk": 5, 
+    "model": "search.attractioncategory", 
+    "fields": {
+        "name": "Architecture"
+    }
+},
+{
+    "pk": 6, 
+    "model": "search.attractioncategory", 
+    "fields": {
+        "name": "Art"
+    }
+},
+{
+    "pk": 7, 
+    "model": "search.attractioncategory", 
+    "fields": {
+        "name": "Waterfalls"
+    }
+},
+{
+    "pk": 8, 
+    "model": "search.attractioncategory", 
+    "fields": {
+        "name": "Lake"
+    }
+},
+{
+    "pk": 1, 
+    "model": "search.destination", 
+    "fields": {
+        "category": 1, 
+        "name": "Yosemite National Park", 
+        "open_hours": "24 hours", 
+        "best_time": "Spring, Summer", 
+        "country": "United States", 
+        "photos": "Later", 
+        "state": "California", 
+        "time_required": "2-3 days", 
+        "location": "(37.8651011, -119.5383294)", 
+        "address": "Yosemite National Park", 
+        "added_by": "aju", 
+        "added_on": "2014-07-16", 
+        "description": "Yosemite is an amazing place to visit due the beautiful landscapes. Must see for anyone traveling to California."
+    }
+},
+{
+    "pk": 2, 
+    "model": "search.destination", 
+    "fields": {
+        "category": 2, 
+        "name": "Lihue International Airport", 
+        "open_hours": "24 hours", 
+        "best_time": "All through the year", 
+        "country": "United States", 
+        "photos": "Later", 
+        "state": "Hawaai", 
+        "time_required": "4-5 days", 
+        "location": "(21.9788489, -159.3437585)", 
+        "address": "Lihue airport, Kauai", 
+        "added_by": "aju", 
+        "added_on": "2014-07-16", 
+        "description": "This is the main airport in Kauai"
+    }
+},
+{
+    "pk": 1, 
+    "model": "search.attraction", 
+    "fields": {
+        "category": 4, 
+        "name": "Waimea Canyon Lookout", 
+        "open_hours": "24 hours", 
+        "best_time": "Summer morning", 
+        "country": "United States", 
+        "photos": "Later", 
+        "state": "Hawaii", 
+        "time_required": "1 hour", 
+        "ticket_price": "",
+        "location": "(22.0718055, -159.6616083)", 
+        "address": "Waimea Canyon Lookout, Hawaii", 
+        "added_by": "aju", 
+        "added_on": "2014-07-16", 
+        "description": "This is one of the most beautiful places to be in Kauai"
+    }
+},
+{
+    "pk": 2, 
+    "model": "search.attraction", 
+    "fields": {
+        "category": 7, 
+        "name": "Bridalveil Fall", 
+        "open_hours": "24 hours", 
+        "best_time": "Spring, Summer", 
+        "country": "United States", 
+        "photos": "Later", 
+        "state": "California", 
+        "time_required": "1 hour", 
+        "ticket_price": "",
+        "location": "(37.716753, -119.646505)", 
+        "address": "Bridalveil Fall, Yosemite", 
+        "added_by": "aju", 
+        "added_on": "2014-07-16", 
+        "description": "This is a beautiful water fall at the Yosemite valley."
+    }
+},
+{
+    "pk": 3, 
+    "model": "search.attraction", 
+    "fields": {
+        "category": 2, 
+        "name": "Half Dome", 
+        "open_hours": "Sunrise to sunset", 
+        "best_time": "Summer", 
+        "country": "United States", 
+        "photos": "Later", 
+        "state": "California", 
+        "time_required": "7 hours", 
+        "ticket_price": "",
+        "location": "(37.7461111, -119.5330555)", 
+        "address": "Half Dome, Yosemite", 
+        "added_by": "aju", 
+        "added_on": "2014-07-16", 
+        "description": "Half dome is the main attraction of Yosemite. This is a pretty hard hike though."
+    }
+}
+]

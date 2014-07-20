@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>XPLOR</title>
+        <script type="text/javascript">
+            window.myobj = {
+                markerOver: function() { this.openInfoWindow(); },
+                markerOut: function() { this.closeInfoWindow(); }
+            };
+        </script>
+    </head>
+
+    <body>
+        <h1>Search for a destination</h1>
+
+        <form id="destination_form" method="post" action="/search/">
+            {% csrf_token %}
+            <label>{{form.searchfor.help_text}}</label> {{ form.searchfor }}
+            <input type="submit" name="submit" value="Create Destination" />
+            {% if converted %}
+                <br/><p>{{ converted }}</p>
+                {{ form.map }}
+                {{ form.media.js }}
+            {% endif %}
+        </form>
+   </body>
+
+</html>
